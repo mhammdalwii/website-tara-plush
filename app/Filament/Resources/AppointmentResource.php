@@ -12,6 +12,7 @@ use Filament\Tables\Table;
 
 class AppointmentResource extends Resource
 {
+    // bahasa
     protected static ?string $model = Appointment::class;
 
     protected static ?string $navigationIcon = 'heroicon-o-calendar-days';
