@@ -70,7 +70,7 @@ class ConsultationResource extends Resource
     {
         return [
             'index' => Pages\ListConsultations::route('/'),
-            'create' => Pages\CreateConsultation::route('/create'),
+            // 'create' => Pages\CreateConsultation::route('/create'),
             'edit' => Pages\EditConsultation::route('/{record}/edit'),
         ];
     }
